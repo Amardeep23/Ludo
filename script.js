@@ -48,7 +48,7 @@ console.log(getRndInteger);
 // diceButton.addEventListener('click', getRndInteger); //the button is not working for now//
 
 function return_div_id(){
-  alert('e.target.id');
+  // alert('e.target.id');
   return this.target.id;
 };
 
