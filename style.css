@@ -1,0 +1,88 @@
+body{
+    background-image: url('wp3731782.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main_div{
+    max-width: fit-content  !important;
+    margin: 2% 2%;
+}
+/* ludo logo */
+.heading{
+    position: absolute;
+    max-width: 100%;
+    color: rgb(255, 255, 255);  
+    left: 47%;
+    font-size: 1.2rem;
+}
+
+.heading h1{
+    max-width: 100%;
+}
+
+/* flebox game area div tag */
+.game_area{
+    position: relative;
+    top: 6rem;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 7% 86% 7%;
+    color: rgb(243, 247, 11);
+    font-size: 2rem;
+} 
+.play_board{
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 75px);
+}
+.box{
+    border: 2px solid rgb(252, 252, 252);
+    cursor: pointer;
+}
+.box:hover{
+    background-color:rgba(109, 108, 105, 0.918);
+}
+.gameplay_outer_div{
+    grid-area: 2/2/8/8;
+}
+
+.gameplay_inner_div{
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    display: grid;
+    position: absolute;
+    left: 33%;
+    top: 33%;
+    background-color: rgba(121, 107, 107, 0.534);
+    border: 1.5px dashed powderblue;
+    font-size: 2rem;
+    color: rgb(0, 255, 170);
+    grid-template-rows: 30% 40% 30%;
+}
+
+
+/* button styling */
+.roll_button_div{
+    position: relative;
+    left: 22%;
+    top: 30%;
+}
+.roll_button{
+    font-size: 2rem;
+    background-color: cyan;
+    cursor: pointer;
+    color: dimgray;
+}
+.roll_button:hover{
+    font-size: 2.1rem;
+    background-color: rgba(0, 255, 255, 0.63);
+    color: black;
+}
+/* markers */
+.marker{
+    color: white;
+    cursor: pointer;
+}
+
